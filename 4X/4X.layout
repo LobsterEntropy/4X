@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="..\..\..\..\Documents\GitHub\4X\4X\4X_func.h" open="0" top="0" tabpos="0">
+		<Cursor position="71" topLine="0" />
+	</File>
+	<File name="4X_main.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="63" topLine="0" />
+	</File>
+	<File name="4x_func.h" open="0" top="0" tabpos="0">
+		<Cursor position="90" topLine="0" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="0">
+		<Cursor position="0" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

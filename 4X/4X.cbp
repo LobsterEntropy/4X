@@ -16,12 +16,18 @@
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
+					<Add option="-lmingw32 -lSDLmain -lSDL" />
+					<Add library="..\..\..\..\Desktop\Projects\SDL_img\SDL_image.dll" />
 				</Linker>
 			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="..\..\..\..\Documents\GitHub\4X\4X\4X_func.h" />
+		<Unit filename="4X_main.cpp" />
+		<Unit filename="4x_func.h" />
+		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />
