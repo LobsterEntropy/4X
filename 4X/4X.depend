@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1344396027 source:c:\users\eric\my documents\github\4x\4x\main.cpp
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<SDL/SDL.h>
+
