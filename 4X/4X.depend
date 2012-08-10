@@ -5,3 +5,13 @@
 	<stdlib.h>
 	<SDL/SDL.h>
 
+1344560473 source:c:\users\eric\my documents\github\4x\4x\4x_main.cpp
+	<iostream>
+	<fstream>
+	"4x_func.h"
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+
+1344397641 c:\users\eric\my documents\github\4x\4x\4x_func.h
+
