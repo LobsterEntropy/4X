@@ -15,3 +15,37 @@
 
 1344397641 c:\users\eric\my documents\github\4x\4x\4x_func.h
 
+1344656234 source:c:\users\eric\documents\github\4x\4x\4x_main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<SFML/System.hpp>
+	<SFML/Graphics.hpp>
+	"4X_vertex.h"
+	"4X_func.h"
+	"4X_constants.h"
+
+1344657384 c:\users\eric\documents\github\4x\4x\4x_vertex.h
+	<iostream>
+	<fstream>
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+
+1344624518 c:\users\eric\documents\github\4x\4x\4x_vertex.cpp
+
+1344655331 c:\users\eric\documents\github\4x\4x\4x_constants.h
+
+1344656736 source:c:\users\eric\documents\github\4x\4x\4x_vertex.cpp
+	"4X_vertex.h"
+
+1344655993 c:\users\eric\documents\github\4x\4x\4x_func.h
+	<stdio.h>
+	<SFML/System.hpp>
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	"4X_constants.h"
+
+1344655995 source:c:\users\eric\documents\github\4x\4x\4x_func.cpp
+	"4X_func.h"
+

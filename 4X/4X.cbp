@@ -16,18 +16,24 @@
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
-					<Add option="-lmingw32 -lSDLmain -lSDL" />
-					<Add library="..\..\..\..\Desktop\Projects\SDL_img\SDL_image.dll" />
 				</Linker>
 			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Linker>
+			<Add option="-lsfml-graphics" />
+			<Add option="-lsfml-window" />
+			<Add option="-lsfml-system" />
+			<Add option="-lopengl32" />
+			<Add option="-lglu32" />
+		</Linker>
 		<Unit filename="..\..\..\..\Documents\GitHub\4X\4X\4X_func.h" />
 		<Unit filename="4X_main.cpp" />
+		<Unit filename="4x_constants.h" />
 		<Unit filename="4x_func.h" />
-		<Unit filename="main.cpp" />
+		<Unit filename="4x_vertex.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />
