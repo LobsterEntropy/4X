@@ -15,17 +15,18 @@
 
 1344397641 c:\users\eric\my documents\github\4x\4x\4x_func.h
 
-1344656234 source:c:\users\eric\documents\github\4x\4x\4x_main.cpp
+1344910505 source:c:\users\eric\documents\github\4x\4x\4x_main.cpp
 	<iostream>
 	<fstream>
 	<string>
+	<GL/glew.h>
 	<SFML/System.hpp>
 	<SFML/Graphics.hpp>
 	"4X_vertex.h"
 	"4X_func.h"
 	"4X_constants.h"
 
-1344657384 c:\users\eric\documents\github\4x\4x\4x_vertex.h
+1344910944 c:\users\eric\documents\github\4x\4x\4x_vertex.h
 	<iostream>
 	<fstream>
 	<SFML/System.hpp>
@@ -48,4 +49,17 @@
 
 1344655995 source:c:\users\eric\documents\github\4x\4x\4x_func.cpp
 	"4X_func.h"
+
+1344268747 source:c:\users\eric\documents\github\4x\4x\glew.c
+	<GL/glew.h>
+	<GL/wglew.h>
+	<GL/glxew.h>
+	<dlfcn.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<string.h>
+	<AvailabilityMacros.h>
+	<dlfcn.h>
+	<mach-o/dyld.h>
 

@@ -21,6 +21,4 @@ void drawVertexArray(vertex *v);
 
 vertex* loadVertexData(vertex *vertArray);
 
-void moveVertexData(vertex *v,float x, float y, float z);
-
 #endif
