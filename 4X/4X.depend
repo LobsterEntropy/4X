@@ -15,10 +15,11 @@
 
 1344397641 c:\users\eric\my documents\github\4x\4x\4x_func.h
 
-1344910505 source:c:\users\eric\documents\github\4x\4x\4x_main.cpp
+1344921030 source:c:\users\eric\documents\github\4x\4x\4x_main.cpp
 	<iostream>
 	<fstream>
 	<string>
+	<vector>
 	<GL/glew.h>
 	<SFML/System.hpp>
 	<SFML/Graphics.hpp>
@@ -47,7 +48,7 @@
 	<SFML/Graphics.hpp>
 	"4X_constants.h"
 
-1344655995 source:c:\users\eric\documents\github\4x\4x\4x_func.cpp
+1344917602 source:c:\users\eric\documents\github\4x\4x\4x_func.cpp
 	"4X_func.h"
 
 1344268747 source:c:\users\eric\documents\github\4x\4x\glew.c

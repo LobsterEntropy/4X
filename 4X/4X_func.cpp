@@ -19,11 +19,10 @@ void glInit(){ //various OpenGL init things
     glClearColor(0.0, 0.0, 0.0, 0.0); //when clearing, use black
     glClearDepth(1.0); //set clear depth for later use
     glClear(GL_COLOR_BUFFER_BIT); //clear GL screen
-
     glColor3f(1.0, 1.0, 1.0); //when drawing, use white
-    glOrtho(0.0, 1.0, 0.0, 1.0, -1.0, 1.0);
-    /*set up a rendering persepctive (left, right, bottom, top, behind and forward)
-    Imagine a 1x1x2 cube where the camera is showing the exact middle slice of that cube*/
+    glMatrixMode(GL_PROJECTION); //set up projection matrix
+    glLoadIdentity();
+    gluPerspective(45.0, 1.0f, 1.0, 20.0); //"camera" settings, sort of
 }
 
 void handleEvents(){ //deal with quitting, mainly
@@ -37,3 +36,4 @@ void handleEvents(){ //deal with quitting, mainly
             glViewport(0, 0, event.Size.Width, event.Size.Height);
     }
 }
+

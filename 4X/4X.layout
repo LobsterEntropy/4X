@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Release" />
-	<File name="..\..\..\..\Documents\GitHub\4X\4X\4X_func.h" open="1" top="0" tabpos="0">
-		<Cursor position="71" topLine="0" />
+	<File name="4X_func.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="490" topLine="6" />
 	</File>
-	<File name="4X_main.cpp" open="1" top="0" tabpos="1">
-		<Cursor position="253" topLine="0" />
+	<File name="4X_func.h" open="0" top="0" tabpos="0">
+		<Cursor position="66" topLine="0" />
 	</File>
-	<File name="4x_constants.h" open="0" top="0" tabpos="0">
-		<Cursor position="58" topLine="0" />
+	<File name="4X_main.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="1092" topLine="11" />
 	</File>
-	<File name="4x_func.h" open="0" top="0" tabpos="0">
-		<Cursor position="90" topLine="0" />
+	<File name="4X_vertex.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="1444" topLine="0" />
 	</File>
-	<File name="4x_vertex.cpp" open="1" top="1" tabpos="4">
-		<Cursor position="151" topLine="3" />
+	<File name="4X_vertex.h" open="1" top="0" tabpos="2">
+		<Cursor position="399" topLine="0" />
+	</File>
+	<File name="glew.c" open="0" top="0" tabpos="0">
+		<Cursor position="1559" topLine="15" />
 	</File>
 </CodeBlocks_layout_file>

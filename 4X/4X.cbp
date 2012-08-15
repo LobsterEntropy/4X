@@ -20,20 +20,27 @@
 			</Target>
 		</Build>
 		<Compiler>
+			<Add option="-w" />
 			<Add option="-Wall" />
 		</Compiler>
 		<Linker>
+			<Add option="-mingw32" />
+			<Add option="-lglew32s" />
 			<Add option="-lsfml-graphics" />
 			<Add option="-lsfml-window" />
 			<Add option="-lsfml-system" />
 			<Add option="-lopengl32" />
 			<Add option="-lglu32" />
 		</Linker>
-		<Unit filename="..\..\..\..\Documents\GitHub\4X\4X\4X_func.h" />
+		<Unit filename="4X_constants.h" />
+		<Unit filename="4X_func.cpp" />
+		<Unit filename="4X_func.h" />
 		<Unit filename="4X_main.cpp" />
-		<Unit filename="4x_constants.h" />
-		<Unit filename="4x_func.h" />
-		<Unit filename="4x_vertex.cpp" />
+		<Unit filename="4X_vertex.cpp" />
+		<Unit filename="4X_vertex.h" />
+		<Unit filename="glew.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<debugger />
