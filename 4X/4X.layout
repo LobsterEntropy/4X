@@ -2,21 +2,21 @@
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Release" />
 	<File name="4X_func.cpp" open="1" top="0" tabpos="4">
-		<Cursor position="490" topLine="6" />
+		<Cursor position="0" topLine="0" />
 	</File>
 	<File name="4X_func.h" open="0" top="0" tabpos="0">
 		<Cursor position="66" topLine="0" />
 	</File>
-	<File name="4X_main.cpp" open="1" top="1" tabpos="1">
-		<Cursor position="1092" topLine="11" />
+	<File name="4X_main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="1701" topLine="37" />
 	</File>
-	<File name="4X_vertex.cpp" open="1" top="0" tabpos="3">
-		<Cursor position="1444" topLine="0" />
+	<File name="4X_vertex.cpp" open="1" top="1" tabpos="3">
+		<Cursor position="1141" topLine="26" />
 	</File>
 	<File name="4X_vertex.h" open="1" top="0" tabpos="2">
-		<Cursor position="399" topLine="0" />
+		<Cursor position="317" topLine="0" />
 	</File>
-	<File name="glew.c" open="0" top="0" tabpos="0">
+	<File name="glew.c" open="1" top="0" tabpos="5">
 		<Cursor position="1559" topLine="15" />
 	</File>
 </CodeBlocks_layout_file>

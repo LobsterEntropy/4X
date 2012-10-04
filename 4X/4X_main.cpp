@@ -46,7 +46,6 @@ int main(){
                             -0.5f, 0.5f, 0.0f,
                             0.0, 0.0, 1.0,
                             0.5f, 0.5f, 0.0f};*/
-
     GLuint vertexBuffer = 0; //index variable for our array
 
     glGenBuffers(1, &vertexBuffer); //generate an ID for the VBO
@@ -68,7 +67,9 @@ int main(){
                   0,1,0); //set the orientation, sort of
         glBindBuffer(GL_ARRAY_BUFFER, vertexBuffer); //enable the vertex buffer
         glInterleavedArrays(GL_V3F, 0, 0); //enable the color/vertex array for drawing
+        glColor3f(1.0,1.0,1.0);
         glDrawArrays(GL_LINES, 0, 0);
+
         glFlush();//send 'er over to SFML for drawing
         screen.PreserveOpenGLStates(true);//don't blot out the openGL stuff
 
